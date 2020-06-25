@@ -1,197 +1,203 @@
-7:438  6:495  Found BIOS RSDP at F0000
-7:438  0:000  Printing ACPI tables from RSDP F0000 ...
-7:438  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-7:438  0:000    (Xsdt: AD6E70B8, Rsdt: AD6E7028)
-7:438  0:000    AD6E70B8: 'XSDT', 'Notebook', Rev: 1, Len: 236
-7:438  0:000    AD6E7028: 'RSDT', 'Notebook', Rev: 1, Len: 136
-7:438  0:000    Tables in Xsdt: 25
-7:438  0:000    0. AD6FF660: 'FACP', 'Notebook', Rev: 5, Len: 268
-7:438  0:000        (Dsdt: AD6E7230, Facs: AE464F80, XDsdt: AD6E7230, XFacs: 0)
-7:438  0:000        AD6E7230: 'DSDT', 'Notebook', Rev: 2, Len: 99369
-7:440  0:001        AE464F80: 'FACS', Ver: 2, Len: 64
-7:440  0:000    1. AD6FF770: 'APIC', 'Notebook', Rev: 3, Len: 132
-7:440  0:000    2. AD6FF7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
-7:440  0:000    3. AD6FF840: 'FIDT', 'Notebook', Rev: 1, Len: 156
-7:440  0:000    4. AD6FF8E0: 'ECDT', 'Notebook', Rev: 1, Len: 193
-7:440  0:000    5. AD6FF9A8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-7:440  0:000    6. AD6FF9E8: 'HPET', 'Notebook', Rev: 1, Len: 56
-7:440  0:000    7. AD6FFA20: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-7:440  0:000    8. AD6FFD38: 'UEFI', '', Rev: 1, Len: 66
-7:440  0:000    9. AD6FFD80: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
-7:440  0:000    10. AD700A00: 'ASF!', ' HCG', Rev: 32, Len: 160
-7:440  0:000    11. AD700AA0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
-7:440  0:000    12. AD700FE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-7:440  0:000    13. AD701B58: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-7:440  0:000    14. AD701B90: 'SSDT', 'PttSsdt', Rev: 1, Len: 65
-7:440  0:000    15. AD701BD8: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
-7:440  0:000    16. AD704E20: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-7:440  0:000    17. AD7051B8: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
-7:440  0:000    18. AD705228: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-7:440  0:000    19. AD705CF0: 'SSDT', 'SaSsdt', Rev: 2, Len: 26146
-7:440  0:000    20. AD70C318: 'SSDT', 'SgPch', Rev: 2, Len: 1691
-7:440  0:000    21. AD70C9B8: 'DMAR', 'BDW', Rev: 1, Len: 168
-7:440  0:000    22. AD70CA60: 'BGRT', 'Notebook', Rev: 1, Len: 56
-7:440  0:000    23. AD70CA98: 'SSDT', 'OptTabl', Rev: 1, Len: 5003
-7:440  0:000    24. ACADFE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-7:440  0:000    Tables in Rsdt: 25
-7:440  0:000    0. AD6E71A8: 'FACP', 'Notebook', Rev: 2, Len: 132
-7:440  0:000        (Dsdt: AD6E7230, Facs: AE464F40)
-7:440  0:000        AD6E7230: 'DSDT', 'Notebook', Rev: 2, Len: 99369
-7:442  0:002        AE464F40: 'FACS', Ver: 0, Len: 64
-7:442  0:000    1. AD6FF770: 'APIC', 'Notebook', Rev: 3, Len: 132
-7:442  0:000    2. AD6FF7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
-7:442  0:000    3. AD6FF840: 'FIDT', 'Notebook', Rev: 1, Len: 156
-7:442  0:000    4. AD6FF8E0: 'ECDT', 'Notebook', Rev: 1, Len: 193
-7:442  0:000    5. AD6FF9A8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-7:442  0:000    6. AD6FF9E8: 'HPET', 'Notebook', Rev: 1, Len: 56
-7:442  0:000    7. AD6FFA20: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-7:442  0:000    8. AD6FFD38: 'UEFI', '', Rev: 1, Len: 66
-7:442  0:000    9. AD6FFD80: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
-7:442  0:000    10. AD700A00: 'ASF!', ' HCG', Rev: 32, Len: 160
-7:442  0:000    11. AD700AA0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
-7:442  0:000    12. AD700FE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-7:442  0:000    13. AD701B58: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-7:442  0:000    14. AD701B90: 'SSDT', 'PttSsdt', Rev: 1, Len: 65
-7:442  0:000    15. AD701BD8: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
-7:442  0:000    16. AD704E20: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-7:442  0:000    17. AD7051B8: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
-7:442  0:000    18. AD705228: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-7:442  0:000    19. AD705CF0: 'SSDT', 'SaSsdt', Rev: 2, Len: 26146
-7:442  0:000    20. AD70C318: 'SSDT', 'SgPch', Rev: 2, Len: 1691
-7:442  0:000    21. AD70C9B8: 'DMAR', 'BDW', Rev: 1, Len: 168
-7:442  0:000    22. AD70CA60: 'BGRT', 'Notebook', Rev: 1, Len: 56
-7:442  0:000    23. AD70CA98: 'SSDT', 'OptTabl', Rev: 1, Len: 5003
-7:442  0:000    24. ACADFE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-7:442  0:000  Found UEFI Acpi 2.0 RSDP at AD6E7000
-7:442  0:000  Saving ACPI tables from RSDP AD6E7000 to EFI\CLOVER\ACPI\origin ...
-7:442  0:000   AD6E7000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
-7:450  0:007    (Xsdt: AD6E70B8, Rsdt: AD6E7028)
-7:450  0:000    AD6E70B8: 'XSDT', 'Notebook', Rev: 1, Len: 236 -> XSDT.aml
-7:457  0:007    AD6E7028: 'RSDT', 'Notebook', Rev: 1, Len: 136 -> RSDT.aml
-7:465  0:007    Tables in Xsdt: 25
-7:465  0:000    0. AD6FF660: 'FACP', 'Notebook', Rev: 5, Len: 268 -> FACP.aml
-7:472  0:007        (Dsdt: AD6E7230, Facs: AE464F80, XDsdt: AD6E7230, XFacs: 0)
-7:472  0:000        AD6E7230: 'DSDT', 'Notebook', Rev: 2, Len: 99369 -> DSDT.aml
-7:482  0:010        AE464F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
-7:489  0:007    1. AD6FF770: 'APIC', 'Notebook', Rev: 3, Len: 132 -> APIC.aml
-7:497  0:008    2. AD6FF7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.aml
-7:505  0:007    3. AD6FF840: 'FIDT', 'Notebook', Rev: 1, Len: 156 -> FIDT.aml
-7:512  0:007    4. AD6FF8E0: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
-7:519  0:007    5. AD6FF9A8: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
-7:588  0:069    6. AD6FF9E8: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.aml
-7:596  0:007    7. AD6FFA20: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-0-SataTabl.aml
-7:603  0:007    8. AD6FFD38: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
-7:610  0:007    9. AD6FFD80: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197 -> SSDT-1-Ther_Rvp.aml
-7:617  0:007    10. AD700A00: 'ASF!', ' HCG', Rev: 32, Len: 160 -> ASF!.aml
-7:625  0:007    11. AD700AA0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337 -> SSDT-2-Cpu0Ist.aml
-7:632  0:007    12. AD700FE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932 -> SSDT-3-CpuSsdt.aml (Found hidden SSDT 4 pcs)
-7:639  0:007        * AADD4598: '', '', Rev: 0, Len: 256  00 00 01 01 00 01 00 00 00 00 01 01 00 01 00 00 
-7:639  0:000        * ACAA2618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x3_0-ApIst.aml
-7:647  0:007        * ACAA1918: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 979  53 53 44 54 D3 03 00 00 02 AE 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x3_1-Cpu0Cst.aml
-7:654  0:007        * ACAA3C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_2-ApCst.aml
-7:661  0:007  
-7:661  0:000    13. AD701B58: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
-7:669  0:007    14. AD701B90: 'SSDT', 'PttSsdt', Rev: 1, Len: 65 -> SSDT-4-PttSsdt.aml
-7:676  0:007    15. AD701BD8: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869 -> SSDT-5-DptfTabl.aml
-7:684  0:007    16. AD704E20: 'SSDT', 'CppcTabl', Rev: 2, Len: 916 -> SSDT-6-CppcTabl.aml
-7:691  0:007    17. AD7051B8: 'PCCT', 'PcctTabl', Rev: 5, Len: 110 -> PCCT.aml
-7:698  0:007    18. AD705228: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756 -> SSDT-7-Cpc_Tabl.aml
-7:706  0:007    19. AD705CF0: 'SSDT', 'SaSsdt', Rev: 2, Len: 26146 -> SSDT-8-SaSsdt.aml
-7:713  0:007    20. AD70C318: 'SSDT', 'SgPch', Rev: 2, Len: 1691 -> SSDT-9-SgPch.aml
-7:721  0:007    21. AD70C9B8: 'DMAR', 'BDW', Rev: 1, Len: 168 -> DMAR.aml
-7:729  0:007    22. AD70CA60: 'BGRT', 'Notebook', Rev: 1, Len: 56 -> BGRT.aml
-7:736  0:007    23. AD70CA98: 'SSDT', 'OptTabl', Rev: 1, Len: 5003 -> SSDT-10-OptTabl.aml
-7:743  0:007    24. ACADFE18: 'MSDM', 'Notebook', Rev: 3, Len: 85 -> MSDM.aml
-7:751  0:007    Tables in Rsdt: 25
-7:751  0:000    0. AD6E71A8: 'FACP', 'Notebook', Rev: 2, Len: 132 -> RSDT-FACP.aml
-7:758  0:007        (Dsdt: AD6E7230, Facs: AE464F40)
-7:758  0:000        AD6E7230: 'DSDT', 'Notebook', Rev: 2, Len: 99369
-7:760  0:002        AE464F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
-7:768  0:007    1. AD6FF770: 'APIC', 'Notebook', Rev: 3, Len: 132
-7:768  0:000    2. AD6FF7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
-7:768  0:000    3. AD6FF840: 'FIDT', 'Notebook', Rev: 1, Len: 156
-7:768  0:000    4. AD6FF8E0: 'ECDT', 'Notebook', Rev: 1, Len: 193
-7:768  0:000    5. AD6FF9A8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-7:768  0:000    6. AD6FF9E8: 'HPET', 'Notebook', Rev: 1, Len: 56
-7:768  0:000    7. AD6FFA20: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-7:768  0:000    8. AD6FFD38: 'UEFI', '', Rev: 1, Len: 66
-7:768  0:000    9. AD6FFD80: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
-7:768  0:000    10. AD700A00: 'ASF!', ' HCG', Rev: 32, Len: 160
-7:768  0:000    11. AD700AA0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
-7:768  0:000    12. AD700FE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-7:768  0:000    13. AD701B58: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-7:768  0:000    14. AD701B90: 'SSDT', 'PttSsdt', Rev: 1, Len: 65
-7:768  0:000    15. AD701BD8: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
-7:768  0:000    16. AD704E20: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-7:768  0:000    17. AD7051B8: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
-7:768  0:000    18. AD705228: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-7:768  0:000    19. AD705CF0: 'SSDT', 'SaSsdt', Rev: 2, Len: 26146
-7:768  0:000    20. AD70C318: 'SSDT', 'SgPch', Rev: 2, Len: 1691
-7:768  0:000    21. AD70C9B8: 'DMAR', 'BDW', Rev: 1, Len: 168
-7:768  0:000    22. AD70CA60: 'BGRT', 'Notebook', Rev: 1, Len: 56
-7:768  0:000    23. AD70CA98: 'SSDT', 'OptTabl', Rev: 1, Len: 5003
-7:768  0:000    24. ACADFE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-7:768  0:000  Found UEFI Acpi 1.0 RSDP at AD6E7000
-7:768  0:000  Printing ACPI tables from RSDP AD6E7000 ...
-7:768  0:000   AD6E7000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-7:768  0:000    (Xsdt: AD6E70B8, Rsdt: AD6E7028)
-7:768  0:000    AD6E70B8: 'XSDT', 'Notebook', Rev: 1, Len: 236
-7:768  0:000    AD6E7028: 'RSDT', 'Notebook', Rev: 1, Len: 136
-7:768  0:000    Tables in Xsdt: 25
-7:768  0:000    0. AD6FF660: 'FACP', 'Notebook', Rev: 5, Len: 268
-7:768  0:000        (Dsdt: AD6E7230, Facs: AE464F80, XDsdt: AD6E7230, XFacs: 0)
-7:768  0:000        AD6E7230: 'DSDT', 'Notebook', Rev: 2, Len: 99369
-7:770  0:001        AE464F80: 'FACS', Ver: 2, Len: 64
-7:770  0:000    1. AD6FF770: 'APIC', 'Notebook', Rev: 3, Len: 132
-7:770  0:000    2. AD6FF7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
-7:770  0:000    3. AD6FF840: 'FIDT', 'Notebook', Rev: 1, Len: 156
-7:770  0:000    4. AD6FF8E0: 'ECDT', 'Notebook', Rev: 1, Len: 193
-7:770  0:000    5. AD6FF9A8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-7:770  0:000    6. AD6FF9E8: 'HPET', 'Notebook', Rev: 1, Len: 56
-7:770  0:000    7. AD6FFA20: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-7:770  0:000    8. AD6FFD38: 'UEFI', '', Rev: 1, Len: 66
-7:770  0:000    9. AD6FFD80: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
-7:770  0:000    10. AD700A00: 'ASF!', ' HCG', Rev: 32, Len: 160
-7:770  0:000    11. AD700AA0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
-7:770  0:000    12. AD700FE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-7:770  0:000    13. AD701B58: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-7:770  0:000    14. AD701B90: 'SSDT', 'PttSsdt', Rev: 1, Len: 65
-7:770  0:000    15. AD701BD8: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
-7:770  0:000    16. AD704E20: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-7:770  0:000    17. AD7051B8: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
-7:770  0:000    18. AD705228: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-7:770  0:000    19. AD705CF0: 'SSDT', 'SaSsdt', Rev: 2, Len: 26146
-7:770  0:000    20. AD70C318: 'SSDT', 'SgPch', Rev: 2, Len: 1691
-7:770  0:000    21. AD70C9B8: 'DMAR', 'BDW', Rev: 1, Len: 168
-7:770  0:000    22. AD70CA60: 'BGRT', 'Notebook', Rev: 1, Len: 56
-7:770  0:000    23. AD70CA98: 'SSDT', 'OptTabl', Rev: 1, Len: 5003
-7:770  0:000    24. ACADFE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
-7:770  0:000    Tables in Rsdt: 25
-7:770  0:000    0. AD6E71A8: 'FACP', 'Notebook', Rev: 2, Len: 132
-7:770  0:000        (Dsdt: AD6E7230, Facs: AE464F40)
-7:770  0:000        AD6E7230: 'DSDT', 'Notebook', Rev: 2, Len: 99369
-7:772  0:001        AE464F40: 'FACS', Ver: 0, Len: 64
-7:772  0:000    1. AD6FF770: 'APIC', 'Notebook', Rev: 3, Len: 132
-7:772  0:000    2. AD6FF7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
-7:772  0:000    3. AD6FF840: 'FIDT', 'Notebook', Rev: 1, Len: 156
-7:772  0:000    4. AD6FF8E0: 'ECDT', 'Notebook', Rev: 1, Len: 193
-7:772  0:000    5. AD6FF9A8: 'MCFG', 'Notebook', Rev: 1, Len: 60
-7:772  0:000    6. AD6FF9E8: 'HPET', 'Notebook', Rev: 1, Len: 56
-7:772  0:000    7. AD6FFA20: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-7:772  0:000    8. AD6FFD38: 'UEFI', '', Rev: 1, Len: 66
-7:772  0:000    9. AD6FFD80: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
-7:772  0:000    10. AD700A00: 'ASF!', ' HCG', Rev: 32, Len: 160
-7:772  0:000    11. AD700AA0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
-7:772  0:000    12. AD700FE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
-7:772  0:000    13. AD701B58: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
-7:772  0:000    14. AD701B90: 'SSDT', 'PttSsdt', Rev: 1, Len: 65
-7:772  0:000    15. AD701BD8: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
-7:772  0:000    16. AD704E20: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
-7:772  0:000    17. AD7051B8: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
-7:772  0:000    18. AD705228: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
-7:772  0:000    19. AD705CF0: 'SSDT', 'SaSsdt', Rev: 2, Len: 26146
-7:772  0:000    20. AD70C318: 'SSDT', 'SgPch', Rev: 2, Len: 1691
-7:772  0:000    21. AD70C9B8: 'DMAR', 'BDW', Rev: 1, Len: 168
-7:772  0:000    22. AD70CA60: 'BGRT', 'Notebook', Rev: 1, Len: 56
-7:772  0:000    23. AD70CA98: 'SSDT', 'OptTabl', Rev: 1, Len: 5003
-7:772  0:000    24. ACADFE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+89:425  2:507  Found BIOS RSDP at %p
+89:425  0:000  Printing ACPI tables from RSDP %p ...
+89:425  0:000   %p: 'RSD PTR 2_ASUS_(pn­$', Rev: -1499322617 (Acpi 2.0 or newer), Len: 36
+89:425  0:000    (Xsdt: %p, Rsdt: %p)
+89:425  0:000    %p: 'XSDTì', 'XSDT', Rev: -1499322793, Len: 1
+89:425  0:000    %p: 'RSDTˆ', 'RSDT', Rev: -1499322793, Len: 1
+89:425  0:000    Tables in Xsdt: 25
+89:425  0:000    0. %p: 'FACP', 'FACP', Rev: -1499322793, Len: 5
+89:425  0:000        (Dsdt: AD6E7230, Facs: AE464F80, XDsdt: ad6e7230, XFacs: 0)
+89:425  0:000        %p: 'DSDT)„', 'DSDT', Rev: -1499322937, Len: 2
+89:426  0:001        %p: 'FACS@', Ver: -1499322773, Len: 2
+89:426  0:000    1. %p: 'APIC„', 'APIC', Rev: -1499322793, Len: 3
+89:426  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1499322793, Len: 1
+89:426  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1499322793, Len: 1
+89:426  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -1499322793, Len: 1
+89:426  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1499322793, Len: 1
+89:426  0:000    6. %p: 'HPET8', 'HPET', Rev: -1499322793, Len: 1
+89:426  0:000    7. %p: 'SSDT', 'SSDT', Rev: -1499322793, Len: 1
+89:426  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -1499322793, Len: 1
+89:426  0:000    9. %p: 'SSDT}', 'SSDT', Rev: -1499322793, Len: 2
+89:426  0:000    10. %p: 'ASF! ', 'ASF!', Rev: -1499322793, Len: 32
+89:426  0:000    11. %p: 'SSDT9', 'SSDT', Rev: -1499322793, Len: 2
+89:426  0:000    12. %p: 'SSDTt', 'SSDT', Rev: -1499322793, Len: 2
+89:426  0:000    13. %p: 'TPM24', 'TPM2', Rev: -1499322793, Len: 3
+89:426  0:000    14. %p: 'SSDTA', 'SSDT', Rev: -1499322793, Len: 1
+89:426  0:000    15. %p: 'SSDTE2', 'SSDT', Rev: -1499322793, Len: 2
+89:426  0:000    16. %p: 'SSDT”', 'SSDT', Rev: -1499322793, Len: 2
+89:426  0:000    17. %p: 'PCCTn', 'PCCT', Rev: -1499322793, Len: 5
+89:426  0:000    18. %p: 'SSDTÄ
+', 'SSDT', Rev: -1499322793, Len: 2
+89:426  0:000    19. %p: 'SSDT"f', 'SSDT', Rev: -1499322793, Len: 2
+89:426  0:000    20. %p: 'SSDT›', 'SSDT', Rev: -1499322793, Len: 2
+89:426  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: -1499322793, Len: 1
+89:426  0:000    22. %p: 'BGRT8', 'BGRT', Rev: -1499322793, Len: 1
+89:426  0:000    23. %p: 'SSDT‹', 'SSDT', Rev: -1499322793, Len: 1
+89:426  0:000    24. %p: 'MSDMU', 'MSDM', Rev: -1499322793, Len: 3
+89:426  0:000    Tables in Rsdt: 25
+89:426  0:000    0. %p: 'FACP„', 'FACP', Rev: -1499322793, Len: 2
+89:426  0:000        (Dsdt: AD6E7230, Facs: AE464F40)
+89:426  0:000        %p: 'DSDT)„', 'DSDT', Rev: -1499322937, Len: 2
+89:428  0:001        %p: 'FACS@', Ver: -1499322773, Len: 0
+89:428  0:000    1. %p: 'APIC„', 'APIC', Rev: -1499322793, Len: 3
+89:428  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1499322793, Len: 1
+89:428  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1499322793, Len: 1
+89:428  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -1499322793, Len: 1
+89:428  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1499322793, Len: 1
+89:428  0:000    6. %p: 'HPET8', 'HPET', Rev: -1499322793, Len: 1
+89:428  0:000    7. %p: 'SSDT', 'SSDT', Rev: -1499322793, Len: 1
+89:428  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -1499322793, Len: 1
+89:428  0:000    9. %p: 'SSDT}', 'SSDT', Rev: -1499322793, Len: 2
+89:428  0:000    10. %p: 'ASF! ', 'ASF!', Rev: -1499322793, Len: 32
+89:428  0:000    11. %p: 'SSDT9', 'SSDT', Rev: -1499322793, Len: 2
+89:428  0:000    12. %p: 'SSDTt', 'SSDT', Rev: -1499322793, Len: 2
+89:428  0:000    13. %p: 'TPM24', 'TPM2', Rev: -1499322793, Len: 3
+89:428  0:000    14. %p: 'SSDTA', 'SSDT', Rev: -1499322793, Len: 1
+89:428  0:000    15. %p: 'SSDTE2', 'SSDT', Rev: -1499322793, Len: 2
+89:428  0:000    16. %p: 'SSDT”', 'SSDT', Rev: -1499322793, Len: 2
+89:428  0:000    17. %p: 'PCCTn', 'PCCT', Rev: -1499322793, Len: 5
+89:428  0:000    18. %p: 'SSDTÄ
+', 'SSDT', Rev: -1499322793, Len: 2
+89:428  0:000    19. %p: 'SSDT"f', 'SSDT', Rev: -1499322793, Len: 2
+89:428  0:000    20. %p: 'SSDT›', 'SSDT', Rev: -1499322793, Len: 2
+89:428  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: -1499322793, Len: 1
+89:428  0:000    22. %p: 'BGRT8', 'BGRT', Rev: -1499322793, Len: 1
+89:428  0:000    23. %p: 'SSDT‹', 'SSDT', Rev: -1499322793, Len: 1
+89:428  0:000    24. %p: 'MSDMU', 'MSDM', Rev: -1499322793, Len: 3
+89:428  0:000  Found UEFI Acpi 2.0 RSDP at %p
+89:428  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’å¼²åå•ÉŸç€¨êµ®$ ...
+89:428  0:000   %p: 'RSD PTR 2_ASUS_(pn­$', Rev: -1499322617 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+89:439  0:010    (Xsdt: %p, Rsdt: %p)
+89:439  0:000    %p: 'XSDTì', 'XSDT', Rev: -1499322793, Len: 1 -> XSDT.aml
+89:446  0:007    %p: 'RSDTˆ', 'RSDT', Rev: -1499322793, Len: 1 -> RSDT.aml
+89:453  0:007    Tables in Xsdt: 25
+89:453  0:000    0. %p: 'FACP', 'FACP', Rev: -1499322793, Len: 5 -> FACP.aml
+89:460  0:007        (Dsdt: AD6E7230, Facs: AE464F80, XDsdt: ad6e7230, XFacs: 0)
+89:460  0:000        %p: 'DSDT)„', 'DSDT', Rev: -1499322937, Len: 2 -> DSDT.aml
+89:471  0:010        %p: 'FACS@', Ver: -1499322773, Len: 2 -> FACS.aml
+89:479  0:007    1. %p: 'APIC„', 'APIC', Rev: -1499322793, Len: 3 -> APIC.aml
+89:486  0:007    2. %p: 'FPDTD', 'FPDT', Rev: -1499322793, Len: 1 -> FPDT.aml
+89:493  0:007    3. %p: 'FIDTœ', 'FIDT', Rev: -1499322793, Len: 1 -> FIDT.aml
+89:501  0:007    4. %p: 'ECDTÁ', 'ECDT', Rev: -1499322793, Len: 1 -> ECDT.aml
+89:508  0:007    5. %p: 'MCFG<', 'MCFG', Rev: -1499322793, Len: 1 -> MCFG.aml
+89:515  0:007    6. %p: 'HPET8', 'HPET', Rev: -1499322793, Len: 1 -> HPET.aml
+89:523  0:007    7. %p: 'SSDT', 'SSDT', Rev: -1499322793, Len: 1 -> SSDT-0-SataTabl.aml
+89:530  0:007    8. %p: 'UEFIB', 'UEFI', Rev: -1499322793, Len: 1 -> UEFI.aml
+89:537  0:007    9. %p: 'SSDT}', 'SSDT', Rev: -1499322793, Len: 2 -> SSDT-1-Ther_Rvp.aml
+89:545  0:007    10. %p: 'ASF! ', 'ASF!', Rev: -1499322793, Len: 32 -> ASF!.aml
+89:552  0:007    11. %p: 'SSDT9', 'SSDT', Rev: -1499322793, Len: 2 -> SSDT-2-Cpu0Ist.aml
+89:560  0:007    12. %p: 'SSDTt', 'SSDT', Rev: -1499322793, Len: 2 -> SSDT-3-CpuSsdt.aml (Found hidden SSDT 4 pcs)
+89:567  0:007        * 2866627992: '', '', Rev: 0, Len: 256  00 00 01 01 00 01 00 00 00 00 01 01 00 01 00 00 
+89:567  0:000        * 2896832024: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x3_0-ApIst.aml
+89:575  0:007        * 2896828696: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 979  53 53 44 54 D3 03 00 00 02 AE 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x3_1-Cpu0Cst.aml
+89:582  0:007        * 2896837656: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_2-ApCst.aml
+89:589  0:007  
+89:589  0:000    13. %p: 'TPM24', 'TPM2', Rev: -1499322793, Len: 3 -> TPM2.aml
+89:597  0:007    14. %p: 'SSDTA', 'SSDT', Rev: -1499322793, Len: 1 -> SSDT-4-PttSsdt.aml
+89:604  0:007    15. %p: 'SSDTE2', 'SSDT', Rev: -1499322793, Len: 2 -> SSDT-5-DptfTabl.aml
+89:611  0:007    16. %p: 'SSDT”', 'SSDT', Rev: -1499322793, Len: 2 -> SSDT-6-CppcTabl.aml
+89:619  0:007    17. %p: 'PCCTn', 'PCCT', Rev: -1499322793, Len: 5 -> PCCT.aml
+89:626  0:007    18. %p: 'SSDTÄ
+', 'SSDT', Rev: -1499322793, Len: 2 -> SSDT-7-Cpc_Tabl.aml
+89:633  0:007    19. %p: 'SSDT"f', 'SSDT', Rev: -1499322793, Len: 2 -> SSDT-8-SaSsdt.aml
+89:642  0:008    20. %p: 'SSDT›', 'SSDT', Rev: -1499322793, Len: 2 -> SSDT-9-SgPch.aml
+89:649  0:007    21. %p: 'DMAR¨', 'DMAR', Rev: -1499322793, Len: 1 -> DMAR.aml
+89:657  0:007    22. %p: 'BGRT8', 'BGRT', Rev: -1499322793, Len: 1 -> BGRT.aml
+89:664  0:007    23. %p: 'SSDT‹', 'SSDT', Rev: -1499322793, Len: 1 -> SSDT-10-OptTabl.aml
+89:671  0:007    24. %p: 'MSDMU', 'MSDM', Rev: -1499322793, Len: 3 -> MSDM.aml
+89:679  0:007    Tables in Rsdt: 25
+89:679  0:000    0. %p: 'FACP„', 'FACP', Rev: -1499322793, Len: 2 -> RSDT-FACP.aml
+89:686  0:007        (Dsdt: AD6E7230, Facs: AE464F40)
+89:686  0:000        %p: 'DSDT)„', 'DSDT', Rev: -1499322937, Len: 2
+89:688  0:001        %p: 'FACS@', Ver: -1499322773, Len: 0 -> RSDT-FACS.aml
+89:695  0:007    1. %p: 'APIC„', 'APIC', Rev: -1499322793, Len: 3
+89:695  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1499322793, Len: 1
+89:695  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1499322793, Len: 1
+89:695  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -1499322793, Len: 1
+89:695  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1499322793, Len: 1
+89:695  0:000    6. %p: 'HPET8', 'HPET', Rev: -1499322793, Len: 1
+89:695  0:000    7. %p: 'SSDT', 'SSDT', Rev: -1499322793, Len: 1
+89:695  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -1499322793, Len: 1
+89:695  0:000    9. %p: 'SSDT}', 'SSDT', Rev: -1499322793, Len: 2
+89:695  0:000    10. %p: 'ASF! ', 'ASF!', Rev: -1499322793, Len: 32
+89:695  0:000    11. %p: 'SSDT9', 'SSDT', Rev: -1499322793, Len: 2
+89:695  0:000    12. %p: 'SSDTt', 'SSDT', Rev: -1499322793, Len: 2
+89:695  0:000    13. %p: 'TPM24', 'TPM2', Rev: -1499322793, Len: 3
+89:695  0:000    14. %p: 'SSDTA', 'SSDT', Rev: -1499322793, Len: 1
+89:695  0:000    15. %p: 'SSDTE2', 'SSDT', Rev: -1499322793, Len: 2
+89:695  0:000    16. %p: 'SSDT”', 'SSDT', Rev: -1499322793, Len: 2
+89:695  0:000    17. %p: 'PCCTn', 'PCCT', Rev: -1499322793, Len: 5
+89:695  0:000    18. %p: 'SSDTÄ
+', 'SSDT', Rev: -1499322793, Len: 2
+89:695  0:000    19. %p: 'SSDT"f', 'SSDT', Rev: -1499322793, Len: 2
+89:695  0:000    20. %p: 'SSDT›', 'SSDT', Rev: -1499322793, Len: 2
+89:695  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: -1499322793, Len: 1
+89:695  0:000    22. %p: 'BGRT8', 'BGRT', Rev: -1499322793, Len: 1
+89:695  0:000    23. %p: 'SSDT‹', 'SSDT', Rev: -1499322793, Len: 1
+89:695  0:000    24. %p: 'MSDMU', 'MSDM', Rev: -1499322793, Len: 3
+89:695  0:000  Found UEFI Acpi 1.0 RSDP at %p
+89:695  0:000  Printing ACPI tables from RSDP %p ...
+89:695  0:000   %p: 'RSD PTR 2_ASUS_(pn­$', Rev: -1499322617 (Acpi 2.0 or newer), Len: 36
+89:695  0:000    (Xsdt: %p, Rsdt: %p)
+89:695  0:000    %p: 'XSDTì', 'XSDT', Rev: -1499322793, Len: 1
+89:695  0:000    %p: 'RSDTˆ', 'RSDT', Rev: -1499322793, Len: 1
+89:695  0:000    Tables in Xsdt: 25
+89:695  0:000    0. %p: 'FACP', 'FACP', Rev: -1499322793, Len: 5
+89:695  0:000        (Dsdt: AD6E7230, Facs: AE464F80, XDsdt: ad6e7230, XFacs: 0)
+89:695  0:000        %p: 'DSDT)„', 'DSDT', Rev: -1499322937, Len: 2
+89:697  0:001        %p: 'FACS@', Ver: -1499322773, Len: 2
+89:697  0:000    1. %p: 'APIC„', 'APIC', Rev: -1499322793, Len: 3
+89:697  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1499322793, Len: 1
+89:697  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1499322793, Len: 1
+89:697  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -1499322793, Len: 1
+89:697  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1499322793, Len: 1
+89:697  0:000    6. %p: 'HPET8', 'HPET', Rev: -1499322793, Len: 1
+89:697  0:000    7. %p: 'SSDT', 'SSDT', Rev: -1499322793, Len: 1
+89:697  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -1499322793, Len: 1
+89:697  0:000    9. %p: 'SSDT}', 'SSDT', Rev: -1499322793, Len: 2
+89:697  0:000    10. %p: 'ASF! ', 'ASF!', Rev: -1499322793, Len: 32
+89:697  0:000    11. %p: 'SSDT9', 'SSDT', Rev: -1499322793, Len: 2
+89:697  0:000    12. %p: 'SSDTt', 'SSDT', Rev: -1499322793, Len: 2
+89:697  0:000    13. %p: 'TPM24', 'TPM2', Rev: -1499322793, Len: 3
+89:697  0:000    14. %p: 'SSDTA', 'SSDT', Rev: -1499322793, Len: 1
+89:697  0:000    15. %p: 'SSDTE2', 'SSDT', Rev: -1499322793, Len: 2
+89:697  0:000    16. %p: 'SSDT”', 'SSDT', Rev: -1499322793, Len: 2
+89:697  0:000    17. %p: 'PCCTn', 'PCCT', Rev: -1499322793, Len: 5
+89:697  0:000    18. %p: 'SSDTÄ
+', 'SSDT', Rev: -1499322793, Len: 2
+89:697  0:000    19. %p: 'SSDT"f', 'SSDT', Rev: -1499322793, Len: 2
+89:697  0:000    20. %p: 'SSDT›', 'SSDT', Rev: -1499322793, Len: 2
+89:697  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: -1499322793, Len: 1
+89:697  0:000    22. %p: 'BGRT8', 'BGRT', Rev: -1499322793, Len: 1
+89:697  0:000    23. %p: 'SSDT‹', 'SSDT', Rev: -1499322793, Len: 1
+89:697  0:000    24. %p: 'MSDMU', 'MSDM', Rev: -1499322793, Len: 3
+89:697  0:000    Tables in Rsdt: 25
+89:697  0:000    0. %p: 'FACP„', 'FACP', Rev: -1499322793, Len: 2
+89:697  0:000        (Dsdt: AD6E7230, Facs: AE464F40)
+89:697  0:000        %p: 'DSDT)„', 'DSDT', Rev: -1499322937, Len: 2
+89:698  0:001        %p: 'FACS@', Ver: -1499322773, Len: 0
+89:698  0:000    1. %p: 'APIC„', 'APIC', Rev: -1499322793, Len: 3
+89:698  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1499322793, Len: 1
+89:698  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1499322793, Len: 1
+89:698  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -1499322793, Len: 1
+89:698  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1499322793, Len: 1
+89:698  0:000    6. %p: 'HPET8', 'HPET', Rev: -1499322793, Len: 1
+89:698  0:000    7. %p: 'SSDT', 'SSDT', Rev: -1499322793, Len: 1
+89:698  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -1499322793, Len: 1
+89:698  0:000    9. %p: 'SSDT}', 'SSDT', Rev: -1499322793, Len: 2
+89:698  0:000    10. %p: 'ASF! ', 'ASF!', Rev: -1499322793, Len: 32
+89:698  0:000    11. %p: 'SSDT9', 'SSDT', Rev: -1499322793, Len: 2
+89:698  0:000    12. %p: 'SSDTt', 'SSDT', Rev: -1499322793, Len: 2
+89:698  0:000    13. %p: 'TPM24', 'TPM2', Rev: -1499322793, Len: 3
+89:698  0:000    14. %p: 'SSDTA', 'SSDT', Rev: -1499322793, Len: 1
+89:698  0:000    15. %p: 'SSDTE2', 'SSDT', Rev: -1499322793, Len: 2
+89:698  0:000    16. %p: 'SSDT”', 'SSDT', Rev: -1499322793, Len: 2
+89:698  0:000    17. %p: 'PCCTn', 'PCCT', Rev: -1499322793, Len: 5
+89:698  0:000    18. %p: 'SSDTÄ
+', 'SSDT', Rev: -1499322793, Len: 2
+89:698  0:000    19. %p: 'SSDT"f', 'SSDT', Rev: -1499322793, Len: 2
+89:698  0:000    20. %p: 'SSDT›', 'SSDT', Rev: -1499322793, Len: 2
+89:698  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: -1499322793, Len: 1
+89:698  0:000    22. %p: 'BGRT8', 'BGRT', Rev: -1499322793, Len: 1
+89:698  0:000    23. %p: 'SSDT‹', 'SSDT', Rev: -1499322793, Len: 1
+89:698  0:000    24. %p: 'MSDMU', 'MSDM', Rev: -1499322793, Len: 3
