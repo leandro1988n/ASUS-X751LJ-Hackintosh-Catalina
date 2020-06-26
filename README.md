@@ -1,4 +1,8 @@
 # ASUS-X751LJ-Hackintosh-Catalina
+ 
+<img src="Catalina.jpg">
+ 
+ 
  Clover EFI config files for ASUS X751LJ booting macOS 10.15 Catalina
 
 
